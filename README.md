@@ -1,27 +1,22 @@
-# SocialMediaWeb
+# Social Media Web Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This is a responsive social media web application built using Angular and Firebase. The application focuses on user authentication, content sharing, and real-time interactions, following a clean and modular frontend architecture.
 
-## Development server
+The application supports email-based authentication with verification, user profile management, post creation, and reply/comment functionality. Users can interact with content in real time, with data updates handled through Firebase services. The user interface is built using Angular Material to ensure consistency and responsiveness across devices.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The frontend is developed using Angular and TypeScript with a component-based structure. Page-level features such as home, feed, and verification are separated from reusable UI components like authentication, profile handling, post creation, and replies. Routing is handled using Angular Router, and Firebase is initialized during application startup using environment-based configuration.
 
-## Code scaffolding
+Firebase is used for authentication, data storage, and backend logic through Cloud Functions written in Node.js and TypeScript. The project avoids committing sensitive configuration data and follows basic best practices for frontend application structure and integration with backend services.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Technologies Used
+Angular, TypeScript, Angular Material, Firebase Authentication, Firebase Firestore / Realtime Database, Firebase Cloud Functions, Node.js
 
-## Build
+### Key Functional Areas
+User authentication and email verification, user profiles, post feed, content creation, reply and comment system, real-time updates, reusable and modular UI components.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project was built to gain hands-on experience with Angular application design, Firebase integration, and real-time web application behavior, while following clean and maintainable coding practices.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Author**  
+Digambar Deshmukh  
+Software Engineer | Full-Stack Developer  
+Angular · PostgreSQL · .NET Core
